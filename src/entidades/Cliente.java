@@ -86,7 +86,7 @@ public class Cliente {
 	public String toString() {
 		return "Cliente [numConta=" + numConta + ", saldoConta=" + saldoConta + ", nomeCliente=" + nomeCliente
 				+ ", endereco=" + endereco + ", telefone=" + telefone + ", email=" + email + ", categoria=" + categoria
-				+ "]";
+				+ ", cartoes=" + cartoes + "]";
 	}
 	
 }
