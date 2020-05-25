@@ -25,6 +25,7 @@ public class Programa {
 		Cartao cartao = new Cartao(8887776, "08/2020", "José Wilker", 123, "12345", new Fatura(sdf.parse("10/12/2020"), 5000.75, 0.13, FaturaStatus.PAGAMENTO_PENDENTE));
 		
 		System.out.println(cartao);
+		
 
 	}
 
