@@ -69,10 +69,7 @@ public class Cliente {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	public void pagarFatura(double valorFatura) {
-		saldoConta -= valorFatura;
-	}
+
 	
 	public void addCartao(Cartao cartao) {
 		cartoes.add(cartao);
@@ -80,6 +77,11 @@ public class Cliente {
 	
 	public void removerCartao(Cartao cartao) {
 		cartoes.remove(cartao);
+	}
+	
+	
+	public void pagarFatura(double valorFatura) {
+		saldoConta -= valorFatura;
 	}
 
 	@Override

@@ -41,7 +41,6 @@ public class Fatura {
 	public void setJuros(Double juros) {
 		this.juros = juros;
 	}
-	
 	public void valorFaturaJuros(int diasAtraso) {
 		valorFatura += diasAtraso * juros;
 	}
